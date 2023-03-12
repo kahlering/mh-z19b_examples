@@ -1,0 +1,3 @@
+[submodule "lib/mh-z19b"]
+	path = lib/mh-z19b
+	url = git@github.com:kahlering/mh-z19b.git
