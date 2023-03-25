@@ -8,7 +8,7 @@ set(CMAKE_TRY_COMPILE_TARGET_TYPE "STATIC_LIBRARY")
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/../lib/mh-z19b lib/mh-z19b)
 
 
-project(mouse_input_lag C CXX ASM)
+project(pico_mh-z19b_example C CXX ASM)
 
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
