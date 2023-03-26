@@ -14,6 +14,7 @@ You have to install a cross compiler for Arm Cortex-M like arm-none-eabi-gcc.
 Then, set the compiler path accordingly with CMAKE_C_COMPILER and CMAKE_CXX_COMPILER when executing cmake.
 
 ```
+export PICO_SDK_PATH=/path/to/sdk
 cd raspberry_pico
 mkdir build
 cd build
