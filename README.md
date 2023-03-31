@@ -15,7 +15,7 @@ Then, set the compiler path accordingly with CMAKE_C_COMPILER and CMAKE_CXX_COMP
 
 ```
 export PICO_SDK_PATH=/path/to/sdk
-cd raspberry_pico
+cd raspberry_pi_pico
 mkdir build
 cd build
 cmake -D CMAKE_C_COMPILER=/usr/bin/arm-none-eabi-gcc -D CMAKE_CXX_COMPILER=/usr/bin/arm-none-eabi-g++ ..
